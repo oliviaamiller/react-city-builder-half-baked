@@ -14,7 +14,7 @@ export default function Form({ setCityName,
   slogans }) 
   
 { 
-  return <div className='bottom'>
+  return <div className='form'>
     <CityNameInput setCityName={setCityName}/>
     <section className='dropdowns'>
           

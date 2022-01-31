@@ -23,7 +23,7 @@ function App() {
     
         Welcome to beautiful {cityName}!
       </h1>
-      <div>
+      <div className="bottom">
         
         <Form setSkylineId={setSkylineId} setWaterfrontId={setWaterfrontId} setCastleId={setCastleId} setCityName={setCityName} slogans={slogans} setSlogans={setSlogans} />
 
